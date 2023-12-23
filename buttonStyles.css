@@ -1,0 +1,65 @@
+a{
+    cursor: pointer;
+  }
+  
+  .nav-link:hover{
+    color: darkcyan;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .logo:hover{
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .nav-link:active{
+    color: rgba(144,55,63,0.5);
+  }
+  
+  .nav-link:visited{
+    color: darkgray;
+    text-decoration: underline;
+  }
+  
+  .btn{
+    border: 1px blue solid;
+    border-radius: 10px;
+    padding: 9px;
+    background-color: azure;
+    font-weight: 950;
+    color: cornflowerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .btn:hover{
+    box-shadow: 4px 6px;
+   
+  }
+  
+  .btn:active{
+    border: 1px white solid;
+    margin-top: 56px;
+    margin-bottom: 26px;
+    box-shadow: 6px -6px;
+  
+  }
+  
+  .activity{
+    border: 2px black solid;
+    border-radius: 10px;
+  
+  }
+  
+  .activity:hover{
+    box-shadow: 7px 7px cornflowerblue;
+    color: black;
+    font-weight: 900;
+    background-color: bisque;
+  }
+  
+  .activity:active{
+    box-shadow: -7px -7px cornflowerblue;
+    color:black;
+    background-color: beige;
+  }
